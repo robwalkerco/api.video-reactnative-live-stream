@@ -7,11 +7,7 @@ import {
   StatusBar,
   Animated,
 } from 'react-native';
-import {
-  LiveStreamView,
-  LiveStreamMethods,
-  Resolution,
-} from '@api.video/react-native-livestream';
+import { LiveStreamView } from '@api.video/react-native-livestream';
 import Icon from 'react-native-vector-icons/Ionicons';
 import styles, { button } from './style';
 import Settings from './components/settings';
